@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-weight: 500;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+  }
+  .card-container {
+    background-color:hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    border-radius: 10px;
+    margin: 1em;
+  }
+  .img {
+    content: url("./images/image-product-mobile.jpg");
+    width: 20em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .perfume {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    padding-bottom: 1em;
+  }
+  h1 {
+    color: hsl(212, 21%, 14%);
+    padding: 0 0 0.5em;
+    font-size: 1.5em;
+  }
+  p {
+    color:  hsl(228, 12%, 48%);
+    line-height: 1.5;
+    font-size: 0.875em;
+  }
+  
+/* price */
+.price {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+  }
+  
+  .discount {
+    color: hsl(158, 36%, 37%);
+    font-size: 2.1em;
+  }
+  
+.initial-price {
+    padding-left: 1em;
+    text-decoration-line: line-through;
+    color:  hsl(228, 12%, 48%);
+  }
+  /* add to cart button */
+#cart {
+    padding-right: 0.5em;
+  }
+  
+  button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+  }
+  .product {
+    width: 18em;
+    padding: 2em;
+  }
